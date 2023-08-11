@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-nodejs-comparisons"
+version = "0.1.0"
+description = "Just some comparisons between Python and NodeJS"
+authors = ["Diogo Baeder <diogobaeder@yahoo.com.br>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "python_nodejs_comparisons"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uwsgi = "^2.0.22"
+flask = "^2.3.2"
+gevent = "^23.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

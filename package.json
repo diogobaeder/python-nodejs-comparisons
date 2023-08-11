@@ -1,0 +1,22 @@
+{
+  "name": "python-nodejs-comparisons",
+  "version": "0.1.0",
+  "description": "Just some comparisons between Python and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogobaeder/python-nodejs-comparisons.git"
+  },
+  "author": "Diogo Baeder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diogobaeder/python-nodejs-comparisons/issues"
+  },
+  "homepage": "https://github.com/diogobaeder/python-nodejs-comparisons#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
